@@ -4,14 +4,20 @@
 
 This project involves designing and building a light-following solar tracker system using a Proportional-Integral-Derivative (PID) controller. The primary objective of the system is to maximize the efficiency of a solar panel by ensuring it remains aligned with the light source, typically the sun, throughout the day.
 
+## Software Requirements
+- Arduino IDE
+
 ## Hardware Requirements
-- Arduino board
+- Arduino board (I Use Arduino Uno R3)
 - 4 Light Dependent Resistors (LDRs)
 - 2 Servo Motors
 - 4 Resistors (appropriate values for LDR voltage divider circuits, I use 10k Ohms)
-- Connecting wires
+- Connecting wires/jumper wires
 - Breadboard
 - Solar panel (for practical application)
+
+## Circuit Diagram
+![Circuit Diagram](Schematics.png)
 
 ### How It Works
 
@@ -56,13 +62,13 @@ The PID controller processes the difference in light intensity between the LDRs 
 - **Cost-Effective:** Uses readily available components and is easy to assemble.
 - **Scalable:** Can be adapted for larger solar panels or more complex tracking systems.
 
+## LDR Board 
+![Board On LDR](1718346521360.png)
+![Board On LDR](1718346521360.jpg)
 
-
-## Software Requirements
-- Arduino IDE
-
-## Circuit Diagram
-![Circuit Diagram](Schematics.png)
+## How it looks like
+![The Project](1718346521368.jpg)
+![The Project](1718346521376.jpg)
 
 ## Code
 
