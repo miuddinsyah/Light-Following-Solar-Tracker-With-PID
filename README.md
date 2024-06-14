@@ -62,7 +62,7 @@ The PID controller processes the difference in light intensity between the LDRs 
 - Arduino IDE
 
 ## Circuit Diagram
-(To be added: Schematic showing the connections between Arduino, LDRs, and servo motors)
+![Circuit Diagram](Schematics.png)
 
 ## Code
 
